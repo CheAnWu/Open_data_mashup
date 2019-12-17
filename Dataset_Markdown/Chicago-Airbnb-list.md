@@ -1,25 +1,25 @@
 
-#Data cleaning assessment
+# Data cleaning assessment
 - Cleaning nees for this file:
 	Use Pandas to load the csv file into a Dataframe. The csv file contains 8852 rows and 106 columns (attributes), and each row of the dataset represents an Airbnb information in Chicago. I will also use Pandas for data cleaning, dropping the columns I don't need, there're 106 columns in the original dataset and I won't use most of them in the project, so I need to drop them from the dataframe. Then I'll store the selected columns into a new Pandas dataframe.
 	- The amount of time I expect to spend on the process for this file: 1 week. Since the dataset is not that large comparing with the Chicago rideshare dataset, but it still need some time for data cleaning since it has 106 columns, so I need to take a look at every column and see if they can add insights to the project or not.
 
-#Description of the authorship, attribution, and/or the provenance of the file.  
+# Description of the authorship, attribution, and/or the provenance of the file.  
 
 The data is provided by Inside Airbnb site, and the data behind the Inside Airbnb site is sourced from publicly available information from the Airbnb site.
 
 
-#Description of the semantic contents of the file.
+# Description of the semantic contents of the file.
 
 The "Chicago_Airbnb_list" dataset contains all the registered Airbnb information in the Great Chicago Area, it contains the name, the review, the space, the description, the price, and all the public information you can find on the Airbnb website when you search for Airbnb in Chicago.
 
 
-#Description of the collection process.
+# Description of the collection process.
 
 Full collection procedure are described on the Inside Airbnb website. Just search for the specific location (I searched for Chicago) and then download the "listings.csv" file from the website.
 
 
-#Description of the data structure
+# Description of the data structure
 
 The data file is in CSV format. There are 8852 rows and 106 columns in the dataset, each row of the dataset represents an Airbnb information in Chicago
 
