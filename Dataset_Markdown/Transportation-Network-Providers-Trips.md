@@ -1,26 +1,26 @@
 
-#Data cleaning assessment
+# Data cleaning assessment
 - Cleaning nees for this file:
 	Use Pandas to load the csv file into a Dataframe. The csv file contains 101 million rows and 21 columns (attributes), and each row of the dataset represents a rideshare trip. I will also use Pandas for data cleaning, dropping the column I don't need, and store the selected columns into a new Pandas dataframe. The columns I may select: Trip Start Timestamp, Trip End Timestamp, Trip Seconds, Trip Miles, Trip Total, Pickup Centroid Latitude, Pickup Centroid Longitude, Dropoff Centroid Latitude, Dropoff Centroid Longitude.
 - The amount of time I expect to spend on the process for this file: 2 weeks. Since it's the largest dataset among all of my datasets, it's 12G and it has 101 milllion records, I may only select 40 days that Chicago Bulls had home game and other 40 days not didn't have NBA game. Moreover, I may need more time to split the dataset into maybe 5 sub datasets.
 
 
-#Description of the authorship, attribution, and/or the provenance of the file.  
+# Description of the authorship, attribution, and/or the provenance of the file.  
 
 The data is provided by City of Chicago - Chicago Department of Business Affairs & Consumer Protection.
 
 
-#Description of the semantic contents of the file.
+# Description of the semantic contents of the file.
 
 The "Transportation Network Providers - Trips" dataset contains all rideshare trips from November 2018 to present, reported by rideshare companies (Uber and Lyft) to the City of Chicago as part of routine reporting required by ordinance.
 
 
-#Description of the collection process.
+# Description of the collection process.
 
 Full collection procedure are described on the Chicago Data Portal website. Just click on "Export" and download the csv file.
 
 
-#Description of the data structure
+# Description of the data structure
 
 The data file is in CSV format. There are 101 million rows and 21 columns in the dataset, each row of the dataset represents a rideshare trip in Chicago.
 
