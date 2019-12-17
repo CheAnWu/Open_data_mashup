@@ -2,7 +2,7 @@ import os
 import csv
 
 def split(filehandler, delimiter=',', row_limit=300000,
-          output_name_template='rideshare_output_%s.csv', output_path='.', keep_headers=True):
+          output_name_template='sub_rideshare_%s.csv', output_path='.', keep_headers=True):
     import csv
     reader = csv.reader(filehandler, delimiter=delimiter)
     current_piece = 1
@@ -28,4 +28,4 @@ def split(filehandler, delimiter=',', row_limit=300000,
                 current_out_writer.writerow(headers)
         current_out_writer.writerow(row)
 
-split(open('sub_rideshare_1.csv', 'r'))
+split(open('rideshare_output_1.csv', 'r'))
