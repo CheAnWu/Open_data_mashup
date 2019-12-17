@@ -52,7 +52,7 @@ Rideshare_NBA.csv: Rideshare-final.md
 A python file that I used to split the original rideshare dataset.
 
 ## Jupyter Notebook
-#### File Name: Final-output.ipynb
+#### File Name: Open_data_final.ipynb
 
 ## Github repo
 https://github.com/CheAnWu/Open_data_mashup
