@@ -1,7 +1,7 @@
 import os
 import csv
 
-def split(filehandler, delimiter=',', row_limit=300000,
+def split(filehandler, delimiter=',', row_limit=150000,
           output_name_template='sub_rideshare_%s.csv', output_path='.', keep_headers=True):
     import csv
     reader = csv.reader(filehandler, delimiter=delimiter)
